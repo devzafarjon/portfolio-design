@@ -1,7 +1,92 @@
-@import url('./fonts.css');
-
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+
+:root {
+    --purple: #755CDE;
+    --orange: #F6A560;
+    --pink: #F39E9E;
+    --red: #EB7565;
+    --green: #61C4B7;
+    --brown: #552049;
+    --black: #030303;
+    --grey: #7A746E;
+    --white: #FFF7F0;
+}
+
+body {
+    font-family: 'Plus Jakarta Sans';
+}
+
+.heading-l {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 70px;
+    color: var(--black);
+}
+
+.heading-m {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 51px;
+    color: var(--black);
+}
+
+.heading-s {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    color: var(--black);
+}
+
+.paragraph {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: var(--grey);
+}
+
+.black-btn {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 28px;
+    color: var(--white);
+    background-color: var(--black);
+    padding: 14px 45px;
+    border: none;
+    border-radius: 28px;
+}
+
+.black-btn:hover {
+    background-color: var(--purple);
+}
+
+.orange-btn {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 28px;
+    color: var(--white);
+    background-color: var(--red);
+    padding: 14px 45px;
+    border: none;
+    border-radius: 28px;
+}
+
+.orange-btn:hover {
+    background-color: var(--orange);
+}
+
+.arrow-btn {
+    width: 64px;
+    height: 64px;
+    border: none;
+    border-radius: 50%;
+    background-color: var(--black);
+    padding: 24px;
+}
+
+.arrow-btn:hover {
+    background-color: var(--purple);
 }
