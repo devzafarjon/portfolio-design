@@ -18,6 +18,7 @@
 
 body {
     font-family: 'Plus Jakarta Sans';
+    overflow-x: hidden;
 }
 
 .container {
@@ -123,6 +124,7 @@ nav {
 
 main {
     margin-top: 80px;
+    margin-bottom: 88px;
 }
 
 .grid-container {
@@ -215,4 +217,46 @@ main {
 
 .hero-info .red-btn {
     margin-top: 32px;
+}
+
+.work-imgs {
+    margin-top: 88px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 56px;
+    align-items: center;
+}
+
+.imgs {
+    display: flex;
+    gap: 30px;
+}
+
+.btns .arrow-btn {
+    margin-right: 16px;
+}
+
+.footer-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 182px;
+    background-color: var(--black);
+    padding: 81px 95px 80px 65px;
+    border-radius: 10px;
+}
+
+.f-text {
+    width: 540px;
+}
+
+.f-text .heading-m {
+    margin-bottom: 25px;
+    color: var(--white);
+}
+
+footer nav {
+    margin-top: 56px;
+    margin-bottom: 64px;
 }
